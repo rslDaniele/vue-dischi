@@ -14,7 +14,7 @@ var app = new Vue ({
       this.album = risposta.data.response;
     });
 
-    console.log(this.album);
+    // console.log(album); non posso fare il log dell'array dato che la chiamata è asincrona
   }
 
 });
